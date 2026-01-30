@@ -1,6 +1,7 @@
 name: Unzip File
 
-on: [push]
+on:
+  push:
 
 jobs:
   unzip:
@@ -8,13 +9,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Unzip file
-        run: unzip project.zip -d extracted
+      - name: Unzip ZIP
+        run: unzip wa-group-clone.zip -d extracted
 
       - name: Commit hasil unzip
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add .
-          git commit -m "Unzip file otomatis"
+          git commit -m "Auto unzip wa-group-clone"
           git push
