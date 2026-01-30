@@ -1,0 +1,5 @@
+{
+  "name": "WA Group Clone",
+  "description": "A replica of the WhatsApp Group Invite page with an admin panel to manage group details, images, and links.",
+  "requestFramePermissions": []
+}
