@@ -1,0 +1,5 @@
+{
+  "name": "WA Group Invite Mock",
+  "description": "A simulation of a WhatsApp group invitation page with a customizable admin panel and mock login modals.",
+  "requestFramePermissions": []
+}
