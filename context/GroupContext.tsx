@@ -10,7 +10,8 @@ const defaultGroupInfo: GroupInfo = {
   name: "Share Video 🔞",
   subtext: "Undangan Grup WhatsApp",
   image: "https://picsum.photos/id/64/200/200", // Placeholder for the profile
-  memberCount: 256
+  memberCount: 256,
+  groupLink: "https://chat.whatsapp.com/" // Default link
 };
 
 const GroupContext = createContext<GroupContextType | undefined>(undefined);
